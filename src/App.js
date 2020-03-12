@@ -1,10 +1,15 @@
 import React from 'react';
 
+import Routes from './routes';
+
+import GloboStyles from './styles/global';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello Felipe</h1>
-    </div>
+    <>
+      <Routes />
+      <GloboStyles />
+    </>
   );
 }
 
